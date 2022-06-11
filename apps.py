@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class UserStatusConfig(AppConfig):
+class {{ camel_case_app_name }}(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'user_status'
+    name = '{{ app_name}}'
